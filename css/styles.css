@@ -11,5 +11,16 @@ button {
 }
 
 body {
-  background-image: url("images/javascript.jpg");
+  background-image: url("https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1539582475000/photosp/e6c8a82c-7801-451e-ba23-164d443a04d6/stock-photo-technology-screen-background-computer-data-code-programming-coding-software-e6c8a82c-7801-451e-ba23-164d443a04d6.jpg");
+}
+
+.container {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  background-color: #ffe6f2;
+  font-family: 'Roboto';
+}
+
+h1{
+  font-family: courier;
 }
