@@ -1,3 +1,15 @@
 #result1, #result2, #result3, #result4 {
   display: none;
 }
+
+.radio {
+  padding-left: 16px;
+}
+
+button {
+  float: right;
+}
+
+body {
+  background-image: url("images/javascript.jpg");
+}
