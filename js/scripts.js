@@ -13,15 +13,19 @@ $(document).ready(function() {
 
 
     if ((totalScore) <= 6) {
+      $(".name").text(name);
       $("#result1").show();
     }
     else if ((totalScore) <= 12) {
+      $(".name").text(name);
       $("#result2").show();
     }
     else if ((totalScore) <= 18) {
+      $(".name").text(name);
       $("#result3").show();
     }
     else {
+      $(".name").text(name);
       $("#result4").show();
     }
 
