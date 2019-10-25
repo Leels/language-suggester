@@ -1,8 +1,8 @@
-# Portfolio
+# Language Suggester
 ## By Lela Smith
 
 ### Description
-#### This is a Portfolio web-page for my first project for Epicodus. It includes a list of projects I have been working on and an "About Me" section that describes my motivation for learning programming and my interests.
+#### This website helps new developers choose a first coding language to learn. It will ask the user a series of questions to help best determine the first coding language for their needs and preferences. 
 
 ## GitHub Pages link
 
