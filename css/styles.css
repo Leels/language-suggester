@@ -39,7 +39,12 @@ h1 {
 }
 
 h5 {
-  padding-bottom: 15px;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-family: courier;
 }
 
 #underscore {
@@ -47,14 +52,14 @@ h5 {
 }
 
 img {
+  display: block;
   max-width: 90%;
   max-height: auto;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50px;
-  border-width: 5px;
-}
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-width: 1px;
+  border: solid #00e6e6;
+  border-radius: 10px;
 }
