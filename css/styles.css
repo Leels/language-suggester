@@ -22,7 +22,9 @@ body {
   padding-bottom: 15px;
   background-color: #ffe6f2;
   font-family: 'Roboto';
-  border-radius: 10px;
+  border-width: 1px;
+  border: solid #00e6e6;
+  border-radius: 20px;
 }
 
 h1 {
@@ -32,7 +34,7 @@ h1 {
   padding-top: 30px;
   padding-bottom: 30px;
   border: dotted #00e6e6;
-  border-radius: 10px;
+  border-radius: 20px;
   border-width: 5px;
   background-color: black;
   color: #ff1a75;
@@ -61,5 +63,5 @@ img {
   margin-top: 40px;
   border-width: 1px;
   border: solid #00e6e6;
-  border-radius: 10px;
+  border-radius: 20px;
 }
