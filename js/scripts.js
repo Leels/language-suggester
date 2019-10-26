@@ -15,6 +15,8 @@ $(document).ready(function() {
     if ((totalScore) <= 6) {
       $(".name").text(name);
       $("#result1").show();
+      ("#result2 #result3 #result4").hide();
+      $('#quiz').get(0).reset()
     }
     else if ((totalScore) <= 12) {
       $(".name").text(name);
