@@ -40,8 +40,14 @@ h1 {
   color: #ff1a75;
 }
 
-h5 {
+h4 {
   padding: 15px;
+}
+
+#quiz {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 h2 {

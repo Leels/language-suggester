@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
-    var name = $("input#name").val();
 
+    var name = $("input#name").val();
     var question1 = parseInt($("input:radio[name=question1]:checked").val());
     var question2 = parseInt($("input:radio[name=question2]:checked").val());
     var question3 = parseInt($("input:radio[name=question3]:checked").val());
@@ -15,21 +15,33 @@ $(document).ready(function() {
     if ((totalScore) <= 6) {
       $(".name").text(name);
       $("#result1").show();
-      ("#result2 #result3 #result4").hide();
-      $('#quiz').get(0).reset()
+      $("#result2").hide();
+      $("#result3").hide();
+      $("#result4").hide();
     }
     else if ((totalScore) <= 12) {
       $(".name").text(name);
       $("#result2").show();
+      $("#result1").hide();
+      $("#result3").hide();
+      $("#result4").hide();
     }
     else if ((totalScore) <= 18) {
       $(".name").text(name);
       $("#result3").show();
+      $("#result2").hide();
+      $("#result1").hide();
+      $("#result4").hide();
     }
     else {
       $(".name").text(name);
       $("#result4").show();
+      $("#result2").hide();
+      $("#result3").hide();
+      $("#result1").hide();
     }
+
+    document.getElementById("quiz").reset();
 
   });
 });
