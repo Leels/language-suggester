@@ -12,21 +12,21 @@ $(document).ready(function() {
     var totalScore = question1 + question2 + question3 + question4 + question5 + question6 ;
 
 
-    if ((totalScore) <= 6) {
+    if ((totalScore) <= 18) {
       $(".name").text(name);
       $("#result1").show();
       $("#result2").hide();
       $("#result3").hide();
       $("#result4").hide();
     }
-    else if ((totalScore) <= 12) {
+    else if ((totalScore) <= 28) {
       $(".name").text(name);
       $("#result2").show();
       $("#result1").hide();
       $("#result3").hide();
       $("#result4").hide();
     }
-    else if ((totalScore) <= 18) {
+    else if ((totalScore) <= 38) {
       $(".name").text(name);
       $("#result3").show();
       $("#result2").hide();
