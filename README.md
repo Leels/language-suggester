@@ -6,7 +6,7 @@
 
 ## GitHub Pages link
 
-  [Visit Portfolio](http://leels.github.io/language-suggester/)
+  [Visit Coding Language Suggester](http://leels.github.io/language-suggester/)
 
 ### Known Bugs
 #### None
